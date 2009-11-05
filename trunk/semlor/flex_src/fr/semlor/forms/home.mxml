@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" width="400" height="300">
+	
+	<mx:Script>
+		<![CDATA[
+		import mx.controls.Alert;
+		
+		private function send_it():void {
+		
+			Alert.show(textInput.text);
+		
+		}
+		]]>
+	</mx:Script>
+		
+<mx:HBox>
+	
+
+<mx:TextInput id="textInput"/>
+
+<mx:Button id="send_btn" label="Send" click="send_it();"/>
+</mx:HBox>
+	
+</mx:Canvas>

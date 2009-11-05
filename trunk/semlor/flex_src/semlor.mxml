@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:logic="fr.semlor.logic.*"
+	xmlns:forms="fr.semlor.forms.*"
+	applicationComplete="initApp();">
+
+<logic:CentralControl/>
+
+<mx:Script>
+
+	<![CDATA[
+	
+	
+	private function initApp():void {
+		
+		
+	}
+	
+	]]>
+</mx:Script>
+
+<forms:home/>
+
+</mx:Application>
